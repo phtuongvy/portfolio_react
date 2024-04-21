@@ -4,6 +4,9 @@ import Logo from "../../assets/wolf.png";
 
 
 const Sidebar = () => {
+
+    const year = new Date().getFullYear();
+
     return (
         <aside className="aside">
             <a href="#home" className="nav__logo">
@@ -48,6 +51,13 @@ const Sidebar = () => {
 
                 </div>
             </nav>
+
+            {/* nav footer */}
+            <div className="nav__footer">
+                <span className="copyright">
+                    &copy; {year} <strong>phtuongvy</strong> All Rights Reserved
+                </span>
+            </div>
         </aside>
     )
 
