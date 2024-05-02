@@ -15,7 +15,7 @@ const Home = () => {
             <div className="intro">
                 <img src={Me} alt="" className="home__img" />
                 <h1 className="home__name">
-                    PHAM HUYNH Tuong Vy
+                    Pham Huynh Tuong Vy
                 </h1>
                 <span className="home__education">
                     I'm a <em>second year</em> student at IUT Annecy and I like
